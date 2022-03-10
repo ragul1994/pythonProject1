@@ -3,6 +3,7 @@ import pyomo.environ as pyo
 from pyomo.environ import *
 from pyomo.opt import SolverFactory
 # Changes
+# Commenting
 model = pyo.ConcreteModel()
 model.x = pyo.Var(range(1, 6), within=Integers, bounds=(0, None))
 model.y = pyo.Var(bounds=(0, None))
