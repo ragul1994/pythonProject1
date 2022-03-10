@@ -1,7 +1,6 @@
 import pyomo.environ as pyo
 from pyomo.environ import *
 from pyomo.opt import SolverFactory
-
 model = pyo.ConcreteModel()
 model.x = pyo.Var(bounds=(0, 10))
 model.y = pyo.Var(bounds=(0, 10))
